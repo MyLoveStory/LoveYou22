@@ -5516,10 +5516,10 @@ a.badge:focus {
 	color: inherit;
 	background-color: #eee;
 	margin-top: 0px;
-	padding-bottom: 300px;
+	padding-bottom: 15%;
 	padding-left: 15px;
 	padding-right: 15px;
-	padding-top: 250px;
+	padding-top: 9%;
 	top: 0px;	
 }
 
@@ -5550,6 +5550,11 @@ a.badge:focus {
 .jumbotron .container {
 	max-width: 100%;
 	text-align: center;
+}
+
+.footer {
+    position: fixed;
+    botom: 0;
 }
 
 @media screen and (min-width:768px) {

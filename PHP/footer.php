@@ -1,3 +1,3 @@
 <footer>
-        <p><blockquote>&copy; LoveYou<?php echo date('Y');?></blockquote></p>
+        <p><blockquote><span class="glyphicon glyphicon-copyright-mark"></span> LoveYou<?php echo date('Y');?></blockquote></p>
 </footer>
