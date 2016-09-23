@@ -27,34 +27,15 @@
         <!--[if lt IE 8]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-   <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-heart" aria-hidden="true"></span> LoveYou 2016</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="about.html">About</a></li>      
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
+   <?php include("PHP/header.php"); ?>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
     <div class="jumbotron">
       <div class="container">
-        <h1 id="love"></h1>
-        
-        <p><a id='loveButton' class="btn btn-primary btn-lg" href="#" role="button">I want more love! <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></p>
+        <h1>What LoveYou is about?</h1>
+        <p>Love You is a wink to my wife who is always talking to me when i'm working.</p>
+        <p>Here is a sample of phrases I randomly answer to her questions.</p>
+        <p><a href="index.php" class="btn btn-primary btn-lg" role="button">Let's the love begin! <span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span></a></p>
       </div>
     </div>
 
@@ -62,9 +43,7 @@
 
  
 
-      <footer>
-        <p><blockquote>&copy; LoveYou2016</blockquote></p>
-      </footer>
+     <?php include("PHP/footer.php"); ?>
     </div> <!-- /container -->        
 	
 	<script src="js/vendor/jquery-1.11.2.min.js"></script>
